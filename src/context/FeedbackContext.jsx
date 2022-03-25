@@ -28,7 +28,7 @@ export const FeedbackProvider = ({ children }) => {
     const response = await fetch('/feedback', {
       method: 'POST',
       headers: {
-        "Content-Type": 'application/json'
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify(newFeedback)
     })
@@ -58,9 +58,8 @@ export const FeedbackProvider = ({ children }) => {
     })
 
     const data = await response.json()
-
-    setFeedback(
-      feedback.map((item) => (item.id === id ? data : item)))
+    
+    setFeedback(feedback.map((item) => (item.id === id ? data : item)))
 
     setFeedbackEdit({
       item: {},
