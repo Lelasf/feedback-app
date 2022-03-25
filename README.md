@@ -1,3 +1,6 @@
+# This project is based on React Front To Back 2022 course in Udemy by Brad Traversy
+### Link here: https://www.udemy.com/course/react-front-to-back-2022/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
